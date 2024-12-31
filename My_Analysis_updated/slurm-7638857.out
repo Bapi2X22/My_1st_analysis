@@ -1,0 +1,32 @@
+==========================================
+SLURM_CLUSTER_NAME = param-brahma
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = seema
+SLURM_JOB_ID = 7638857
+SLURM_JOB_NAME = timAhcal_valid
+SLURM_JOB_NODELIST = gpu014
+SLURM_JOB_USER = bbapi
+SLURM_JOB_UID = 7482
+SLURM_JOB_PARTITION = gpu
+SLURM_TASK_PID = 46012
+SLURM_SUBMIT_DIR = /home/bbapi/AtoGG_merged/PickleMaker/1M_test_EE_Bapi
+SLURM_CPUS_ON_NODE = 4
+SLURM_NTASKS = 4
+SLURM_TASK_PID = 46012
+==========================================
+
+For better command line support, copy and paste the folowing,
+ which will source the spack setup script:
+
+. /home/apps/spack/share/spack/setup-env.sh 
+
+
+If using spack to install to system area, make sure to set umask 0002 
+so that group write access is available to the software Linux group. 
+
+Spack requires Python 3.6 or higher You are running spack with Python 2.7.5.
+Spack requires Python 3.6 or higher You are running spack with Python 2.7.5.
